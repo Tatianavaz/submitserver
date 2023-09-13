@@ -1,0 +1,59 @@
+/* Estilos para a página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #342d99;
+    text-align: center;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.form-section {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 98%;
+    padding: 0.5em;
+    border: 0.5px solid #110f0f;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+}
